@@ -91,8 +91,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Contact
 
-For any questions or issues regarding the code, please contact the corresponding author via email.
-
----
-
-このREADME.mdは、実際のコードを正しく説明し、他の研究者がコードを使いやすいようにするための基本的なガイドラインを提供しています。
+For any questions or issues regarding the code, please contact the corresponding authors via email.
