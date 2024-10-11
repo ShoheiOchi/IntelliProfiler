@@ -44,8 +44,8 @@ Alternatively, the code will attempt to install missing packages when executed.
 ### Running the Analysis
 
 1. **Data Preparation**:
-   Prepare your RFID tracking data in a `.txt` file with the following structure:
-   - Each row should contain a timestamp and the position data (separated by `]`).
+   The RFID tracking data should be logged using TeraTerm software, which communicates with the antenna board hardware. The data is saved as a `.txt` file. 
+   We provide a sample file named `Test.txt`, which can be found in the `data/` directory. This file contains the following structure:
    
 2. **Running the Script**:
    To start the analysis, run the main script:
