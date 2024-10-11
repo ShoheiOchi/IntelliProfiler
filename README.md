@@ -50,7 +50,7 @@ Alternatively, the code will attempt to install missing packages when executed.
 2. **Running the Script**:
    To start the analysis, run the main script:
    ```r
-   source("scripts/position_tracking.R")
+   source("scripts/IntelliProfiler_tracking.R")
    ```
 
 3. **File Input**:
