@@ -92,3 +92,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Contact
 
 For any questions or issues regarding the code, please contact the corresponding authors via email.
+
+Shohei Ochi
+Department of Developmental Neuroscience, Tohoku University Graduate School of Medicine, Sendai, Miyagi 980-8575, Japan
+shohei.ochi.a5@tohoku.ac.jp
+
+
+Alternatively, you can open an issue in this repository for further assistance.
