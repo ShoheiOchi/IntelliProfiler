@@ -2,10 +2,6 @@
 
 This repository contains the code used in the study: **"IntelliProfiler: a novel analytic tool for behavior dynamics of multiple animals in a home cage"**. The IntelliProfiler system uses RFID technology to track and analyze the behavior of multiple mice within a home cage environment. This repository includes scripts for analyzing locomotor activity, social distances, and interaction patterns.
 
-## Abstract of the Paper
-
-There is a growing demand for sophisticated behavioral analysis systems that minimize bias in multi-animal and semi-natural environments. We present **IntelliProfiler**, an advanced system using radio frequency identification (RFID) technology to enable fully automated behavior analyses of multiple mice within a home cage. IntelliProfiler continuously monitors up to 16 mice, capturing both locomotor activity and social dynamics over extended periods. Our findings revealed that male mice maintain broader social distances than females, with group size playing a key role in shaping male social network dynamics. Furthermore, aging in males significantly impacts both locomotor activity and social interaction in a group size-dependent manner. IntelliProfiler offers a novel approach for exploring complex social interactions and group dynamics, advancing the field of behavioral science.
-
 ## Getting Started
 
 These instructions will guide you on how to set up and run the IntelliProfiler code to track the position and behavior of mice equipped with RFID transponders.
