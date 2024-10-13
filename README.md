@@ -55,7 +55,7 @@ Alternatively, the code will attempt to install missing packages when executed.
    - Excel files containing the processed data for each mouse.
    - 2D plots of the tracked positions for each mouse in PDF format.
    - Time series plots of the X and Y positions.
-   - Distance plots comparing the social distances between mice.**
+   - Distance plots comparing the social distances between mice.
 
 ### Data Directory Structure
 
