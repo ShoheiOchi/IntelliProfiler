@@ -47,7 +47,6 @@ Alternatively, the code will attempt to install missing packages when executed.
    ```r
    source("scripts/IntelliProfiler.R")
 
-**
 3. **File Input**:
    When prompted, select the `.txt` file that contains the RFID tracking data of the mice.
 
