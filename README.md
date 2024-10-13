@@ -41,7 +41,8 @@ Alternatively, the code will attempt to install missing packages when executed.
 
 ### Running the Analysis
 
-1. **Data Preparation**: Ensure that RFID tracking data is logged using TeraTerm software and saved as a `.txt` file. A sample file `Test.txt` can be found in the `data/` directory.
+1. **Data Preparation**: Ensure that RFID tracking data is logged using TeraTerm software and saved as a `.txt` file. We have provided a sample file `Test.txt` in the `data/` directory. This file contains RFID tracking data that can be used to test the IntelliProfiler system. You can replace this file with your own `.txt` data for real experiments.
+
 2. **Run the Main Script**: 
    ```r
    source("scripts/IntelliProfiler.R")
