@@ -68,7 +68,8 @@ Alternatively, the code will attempt to install missing packages when executed.
 Once published, please use the appropriate citation to reference IntelliProfiler in your research. This section will be updated with citation details upon acceptance of the manuscript.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 
 ### Contact
 For any questions or issues regarding the code, please contact the corresponding authors via email.
