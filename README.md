@@ -6,7 +6,7 @@ This repository provides the source code for **IntelliProfiler**, a software too
 
 **Details of the IntelliProfiler tool are described in the following preprint:**  
 [_IntelliProfiler: a novel software pipeline for analyzing multiple animals with a high-resolution home-cage RFID system_](https://www.biorxiv.org/content/10.1101/2024.10.23.619967v2)  
-🧾 bioRxiv Preprint (2024)
+🧾 bioRxiv Preprint (2025)
 
 ---
 
@@ -75,7 +75,7 @@ Alternatively, the code will attempt to install missing packages when executed.
 ### Future Citation
 
 Once published, please cite:
-Ochi S, Inada H, Osumi N. IntelliProfiler: a novel software pipeline for analyzing multiple animals with a high-resolution home-cage RFID system. bioRxiv. 2024. [https://doi.org/10.1101/2024.10.23.619967](https://www.biorxiv.org/content/10.1101/2024.10.23.619967v2)
+Ochi S, Inada H, Osumi N. IntelliProfiler: a novel software pipeline for analyzing multiple animals with a high-resolution home-cage RFID system. bioRxiv. 2025. [https://doi.org/10.1101/2024.10.23.619967](https://www.biorxiv.org/content/10.1101/2024.10.23.619967v2)
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
