@@ -1,16 +1,25 @@
-## IntelliProfiler: A Novel Tool for Multi-Animal Behavioral Analysis
+## IntelliProfiler: A software tool for multi-animal behavioral analysis using R and Python
 
-This repository contains the R and Python code used in the study titled *"IntelliProfiler: A Novel Analytic Tool for Behavior Dynamics of Multiple Animals in a Home Cage."* The IntelliProfiler system enables high-resolution tracking and behavioral analysis of multiple mice equipped with RFID transponders in their natural home cage environment. The system facilitates automated analysis of locomotor activity, social interactions, and spatial positioning, making it a valuable tool in neuroscience and behavioral science research.
+This repository provides the source code for **IntelliProfiler**, a software tool for analyzing locomotor activity and social proximity in group-housed mice. Developed in R and Python, IntelliProfiler processes positional data acquired from an external high-resolution home-cage RFID system (eeeHive2D, Lipp et al., 2024) and generates automated, quantitative behavioral metrics and visualizations.
 
+> ⚠️ **Note**: IntelliProfiler is a software pipeline. It does not include any hardware components such as RFID sensor arrays. Users must obtain compatible RFID tracking systems (e.g., eeeHive2D) separately.
+
+**Details of the IntelliProfiler tool are described in the following preprint:**  
+[_IntelliProfiler: a novel software pipeline for analyzing multiple animals with a high-resolution home-cage RFID system_](https://www.biorxiv.org/content/10.1101/2024.10.23.619967v2)  
+🧾 bioRxiv Preprint (2024)
+
+---
 
 ### Getting Started
 
-Follow the instructions below to set up and run IntelliProfiler to track the position and behavior of mice equipped with RFID transponders.
+Follow the steps below to run IntelliProfiler and analyze RFID tracking data from group-housed mice.
 
+---
 
 ### Prerequisites
 
 The following R packages are required to run the scripts:
+
 - `tidyverse`
 - `openxlsx`
 - `lubridate`
@@ -29,7 +38,7 @@ Alternatively, the code will attempt to install missing packages when executed.
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/<your_username>/IntelliProfiler.git
+   git clone https://github.com/ShoheiOchi/IntelliProfiler.git
    ```
 
 2. Open R or RStudio and set your working directory to the cloned repository:
@@ -41,14 +50,14 @@ Alternatively, the code will attempt to install missing packages when executed.
 
 ### Running the Analysis
 
-1. **Data Preparation**: Ensure that RFID tracking data is logged using TeraTerm software and saved as a `.txt` file. We have provided a sample file `Test.txt` in the `data/` directory. This file contains RFID tracking data that can be used to test the IntelliProfiler system. You can replace this file with your own `.txt` data for real experiments.
+1. **Data Preparation**: Ensure that RFID tracking data is logged using TeraTerm software and saved as a .txt file. A sample file Test.txt is provided in the data/ directory. You can replace this file with your own .txt data for real experiments.
 
 2. **Run the Main Script**: 
    ```r
-   source("scripts/IntelliProfiler.R")
+   source("scripts/IP_general.R")
 
 3. **File Input**:
-   When prompted, select the `.txt` file that contains the RFID tracking data of the mice.
+   When prompted, select the .txt file that contains the RFID tracking data of the mice.
 
 4. **Output**:
    The script will process the data and generate the following outputs:
@@ -59,13 +68,14 @@ Alternatively, the code will attempt to install missing packages when executed.
 
 ### Data Directory Structure
 
-- **scripts/**: Contains the main R scripts for data processing and analysis.
-- **data/**: Contains sample input data (you can place your `.txt` data files here).
-- **results/**: After running the analysis, this directory will contain the output files including Excel data and PDF plots.
+- **scripts/**: Contains the main R script (IP_general.R) and optional Python analysis scripts.
+- **data/**: Contains sample input data  (you can place your `.txt` data files here).
+- **results/**: Output files (Excel, PDF plots) will be saved here after analysis.
 
 ### Future Citation
 
-Once published, please use the appropriate citation to reference IntelliProfiler in your research. This section will be updated with citation details upon acceptance of the manuscript.
+Once published, please cite:
+Ochi S, Inada H, Osumi N. IntelliProfiler: a novel software pipeline for analyzing multiple animals with a high-resolution home-cage RFID system. bioRxiv. 2024. [https://doi.org/10.1101/2024.10.23.619967](https://www.biorxiv.org/content/10.1101/2024.10.23.619967v2)
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
