@@ -1,10 +1,10 @@
-## IntelliProfiler: A software tool for multi-animal behavioral analysis using R and Python
+## IntelliProfiler: A research workflow for multi-animal behavioral analysis using R and Python
 
-This repository provides the source code for **IntelliProfiler**, a software tool for analyzing locomotor activity and social proximity in group-housed mice. Developed in R and Python, IntelliProfiler processes positional data acquired from an external high-resolution home-cage RFID system (eeeHive2D, Lipp et al., 2024) and generates automated, quantitative behavioral metrics and visualizations.
+This repository provides the source code for **IntelliProfiler**, a research workflow consisting of R and Python scripts for analyzing locomotor activity and social proximity in group-housed mice. IntelliProfiler processes positional data acquired from a commercially available high-resolution RFID floor plate (eeeHive2D, Phenovance LLC, Japan; Lipp et al., 2024) and is not validated with other hardware configurations. A workflow generates automated, quantitative behavioral metrics and visualizations.
 
-> ⚠️ **Note**: IntelliProfiler is a software pipeline. It does not include any hardware components such as RFID sensor arrays. Users must obtain compatible RFID tracking systems (e.g., eeeHive2D) separately.
+> ⚠️ **Note**: IntelliProfiler is a research workflow. It does not include or control any RFID hardware components. Users must obtain compatible RFID tracking systems (e.g., eeeHive2D) separately.
 
-**Details of the IntelliProfiler tool are described in the following preprint:**  
+**Details of the IntelliProfiler workflow are described in the following preprint:**  
 [_IntelliProfiler: a novel software pipeline for analyzing multiple animals with a high-resolution home-cage RFID system_](https://www.biorxiv.org/content/10.1101/2024.10.23.619967v2)  
 🧾 bioRxiv Preprint (2025)
 
@@ -71,6 +71,9 @@ Alternatively, the code will attempt to install missing packages when executed.
 - **scripts/**: Contains the main R script (IP_general.R) and optional Python analysis scripts.
 - **data/**: Contains sample input data  (you can place your `.txt` data files here).
 - **results/**: Output files (Excel, PDF plots) will be saved here after analysis.
+
+5. **Note**:
+   The raw log file (.txt) exported from TeraTerm is parsed by `IP_general.R`, which reformats the data into per-second positions, handles missing values by simple interpolation, and prepares the dataset for downstream analyses.
 
 ### Future Citation
 
