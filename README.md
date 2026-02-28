@@ -4,7 +4,7 @@ This repository provides the source code for **IntelliProfiler**, a research wor
 
 > ⚠️ **Note**: IntelliProfiler is a research workflow. It does not include or control any RFID hardware components. Users must obtain compatible RFID tracking systems (e.g., eeeHive2D) separately.
 
-**Details of the IntelliProfiler workflow are described in the following preprint:**  
+**Details of the IntelliProfiler workflow are described in the following article:**  
 [_IntelliProfiler: a research workflow for analyzing multiple animals with a high-resolution home-cage RFID system_]([(https://www.nature.com/articles/s41684-025-01668-4)])  
 🧾 Lab Animal (2026)
 
