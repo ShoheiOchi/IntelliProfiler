@@ -75,10 +75,10 @@ Alternatively, the code will attempt to install missing packages when executed.
 5. **Note**:
    The raw log file (.txt) exported from TeraTerm is parsed by `IP_general.R`, which reformats the data into per-second positions, handles missing values by simple interpolation, and prepares the dataset for downstream analyses.
 
-### Future Citation
+### Citation
 
-Once published, please cite:
-Ochi S, Inada H, Osumi N. IntelliProfiler: a novel software pipeline for analyzing multiple animals with a high-resolution home-cage RFID system. bioRxiv. 2025. [https://doi.org/10.1101/2024.10.23.619967](https://www.biorxiv.org/content/10.1101/2024.10.23.619967v2)
+If you use IntelliProfiler in your research, please cite:
+Ochi S, Inada H, Osumi N. IntelliProfiler: a research workflow for analyzing multiple animals with a high-resolution home-cage RFID system. Lab Animal. 2026;55:48–63. https://doi.org/10.1038/s41684-025-01668-4
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
