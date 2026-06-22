@@ -80,5 +80,12 @@ Alternatively, the code will attempt to install missing packages when executed.
 If you use IntelliProfiler in your research, please cite:
 Ochi S, Inada H, Osumi N. IntelliProfiler: a research workflow for analyzing multiple animals with a high-resolution home-cage RFID system. Lab Animal. 2026;55:48–63. https://doi.org/10.1038/s41684-025-01668-4
 
+### Updated version
+
+An updated, fully R-based version of this workflow is available as **IntelliProfiler 2.0**:
+
+* **GitHub repository:** [IntelliProfiler 2.0](https://github.com/IntelliProfiler/IntelliProfiler2.0)
+* **Published article:** Ochi S, Azuma M, Hara I, Inada H, Takabayashi K, Osumi N. IntelliProfiler 2.0: An integrated R pipeline for long-term home-cage behavioral profiling in group-housed mice using eeeHive 2D. *Journal of Neuroscience Methods*. 2026;433:110816. https://doi.org/10.1016/j.jneumeth.2026.110816
+
 ### License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
